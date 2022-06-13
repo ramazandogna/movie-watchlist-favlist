@@ -6,6 +6,6 @@ export default (state, action) => {
         watchlist: [action.payload, ...state.watchlist],
       };
     default:
-      return state;
+      return state;  
   }
 };
